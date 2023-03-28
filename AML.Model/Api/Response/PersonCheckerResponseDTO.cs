@@ -10,7 +10,6 @@ namespace AML.Model.Api.Response
     {
         public string TargetAddress { get; set; }
         public int RequestedHierachyLevel { get; set; }
-        public int ReachedHierachyLevel { get; set; }
         public List<ParticipantAddress> ParticipantAddresses { get; set; }
     }
 

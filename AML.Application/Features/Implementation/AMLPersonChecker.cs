@@ -73,7 +73,6 @@ namespace AML.Application.Features.Implementation
             var data = new PersonCheckerResponseDTO()
             {
                 ParticipantAddresses = part,
-                ReachedHierachyLevel = count,
                 RequestedHierachyLevel = personCheckerRequest.HierachyLevel,
                 TargetAddress = personCheckerRequest.Address
             };
